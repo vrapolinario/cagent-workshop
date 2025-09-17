@@ -24,8 +24,7 @@ Before starting this workshop, you should have:
 1. **cagent installed** - Follow the installation instructions
 2. **Docker Desktop running** - Required for Step 2 (agent sharing)
 3. **Docker Hub account** - For pushing and pulling shared agents
-4. **Basic YAML knowledge** - Agent configurations use YAML format
-5. **AI API access** - OpenAI, Anthropic, or other supported model providers
+4. **AI API access** - OpenAI, Anthropic, or other supported model providers
 
 ## cagent installation instructions
 
