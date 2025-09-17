@@ -1,36 +1,7 @@
 # Step 1: Introduction to cagent
 
-## What is cagent?
-
-cagent is a powerful, customizable multi-agent system that orchestrates AI
-agents with specialized capabilities and tools. Think of it as allowing you to
-quickly build, share and run a team of virtual experts that collaborate to solve
-complex problems.
-
-## Key Features
-
-- **Multi-agent architecture**: Create specialized agents for different domains
-- **Rich tool ecosystem**: Agents can use external tools and APIs via the MCP
-  protocol
-- **Smart delegation**: Agents can automatically route tasks to the most
-  suitable specialist
-- **YAML configuration**: Declarative model and agent configuration
-- **Advanced reasoning**: Built-in "think", "todo" and "memory" tools for
-  complex problem-solving
-- **Multiple AI providers**: Support for OpenAI, Anthropic, Gemini and Docker
-  Model Runner
-
-## Installation and Setup
-
-1. Download the appropriate binary for your platform from the releases page
-2. Make it executable: `chmod +x cagent`
-3. Move to your PATH or create a symlink
-4. Set your API keys:
-   ```bash
-   export OPENAI_API_KEY=your_api_key_here
-   export ANTHROPIC_API_KEY=your_api_key_here
-   export GOOGLE_API_KEY=your_api_key_here
-   ```
+In this step we will start small, we will see how to create simple agents with
+cagent.
 
 ## Your First Agent
 
@@ -42,10 +13,7 @@ Let's create the simplest possible agent:
 agents:
   root:
     model: openai/gpt-4o-mini
-    description: A simple greeting agent
-    instruction: |
-      You are a friendly assistant that greets users warmly.
-      Always introduce yourself and ask how you can help.
+    instruction: You talk like a pirate
 ```
 
 ## Running Your Agent
@@ -58,8 +26,7 @@ cagent run basic_hello.yaml
 
 Create a file called `my_first_agent.yaml` with:
 
-- A model of your choice (openai/gpt-4o-mini is recommended for beginners)
-- A description of what your agent does
+- A model of your choice
 - A simple instruction telling the agent how to behave
 
 Test it by running: `cagent run my_first_agent.yaml`
@@ -87,15 +54,6 @@ agents:
       You are a friendly assistant that greets users warmly.
       Be creative in your greetings and ask engaging questions.
 ```
-
-## Key Concepts
-
-1. **Agent**: The basic unit in cagent - has a model, description, and
-   instruction
-2. **Model**: Defines which AI provider and model to use, plus configuration
-3. **Root agent**: The entry point - this is the agent that handles user
-   interaction initially
-4. **YAML configuration**: All agents and models are defined in YAML files
 
 ## Exercise 2: Experiment with Model Parameters
 
