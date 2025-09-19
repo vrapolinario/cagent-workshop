@@ -70,3 +70,7 @@ While we learn how to use cagent we will focus on making a coding agent.
 
 By the end of this workshop you should have everything you need to make your own
 agents that do things for you.
+
+---
+
+**Next:** [Step 1: Introduction to cagent](step1_first_agent.md)

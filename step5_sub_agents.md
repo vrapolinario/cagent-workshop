@@ -220,3 +220,7 @@ agents:
       - type: mcp
         ref: docker:context7
 ```
+
+---
+
+**Previous:** [Step 4: Sharing Agents with Docker Registry](step4_sharing_agents.md)

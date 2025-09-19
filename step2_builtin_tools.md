@@ -179,3 +179,7 @@ were the commits made in this repository in the last day?"
 
 In the next step we will take a look at ways we can make our developer agent
 even more powerful thanks to MCP servers.
+
+---
+
+**Previous:** [Step 1: Introduction to cagent](step1_first_agent.md) | **Next:** [Step 3: MCP (Model Context Protocol)](step3_mcp.md)

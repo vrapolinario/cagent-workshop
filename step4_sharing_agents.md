@@ -25,3 +25,7 @@ Or you might want to directly run it:
 ```console
 $ cagent run your-account/agent
 ```
+
+---
+
+**Previous:** [Step 3: MCP (Model Context Protocol)](step3_mcp.md) | **Next:** [Step 5: Introduction to Sub-agents](step5_sub_agents.md)

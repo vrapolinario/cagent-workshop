@@ -66,3 +66,7 @@ agents:
 
 In Step 2, we'll dive deeper into agent configuration, add more personality, and
 learn about agent properties like `add_date` and `add_environment_info`.
+
+---
+
+**Previous:** [README](README.md) | **Next:** [Step 2: Builtin tools](step2_builtin_tools.md)
