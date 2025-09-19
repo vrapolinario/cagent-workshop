@@ -27,14 +27,17 @@ cagent run basic_hello.yaml
 If everything is setup correctly, you should see the TUI and be able to ask a
 question to your agent and it should answer in pirate speak.
 
-If you don't have access to OpenAI, go to [models.dev](https://models.dev) and look for the models that exist for `openai`, `anthropic` or `google` provider IDs.
+If you don't have access to OpenAI, go to [models.dev](https://models.dev) and
+look for the models that exist for `openai`, `anthropic` or `google` provider
+IDs.
 
 `cagent` supports these providers:
 
 - `openai`
 - `anthropic`
 - `google`
-- `dmr`: Use any local Docker Model Runner model that you alrady have pulled locally.
+- `dmr`: Use any local Docker Model Runner model that you alrady have pulled
+  locally.
 
 ## Model Configuration
 

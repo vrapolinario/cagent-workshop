@@ -63,39 +63,10 @@ export GOOGLE_API_KEY=your_api_key_here
 
 ## Workshop Overview
 
-This workshop is structured as a progressive learning journey with 5 steps:
+In this workshop we will learn the basics of creating agents and teams of
+agents. How to run them and how to share them.
 
-### Step 1: Introduction to cagent
+While we learn how to use cagent we will focus on making a coding agent.
 
-- What makes agents different from chatbots
-- Basic agent configuration and setup
-- Your first working agent
-- Understanding models and providers
-
-### Step 2: Sharing Agents with Docker Registry
-
-- Push and pull agents using Docker registries
-- Version control and collaboration
-- Agent distribution and sharing workflows
-- Docker Hub integration and authentication
-
-### Step 3: Introduction to Agents
-
-- Advanced agent instructions and behaviors
-- Personality and role definition
-- Adding context with environment information
-- Creating specialized agent personalities
-
-### Step 4: Introduction to Toolsets
-
-- Built-in tools (filesystem, shell, think, todo, memory)
-- External tool integration via MCP
-- Combining tools for powerful workflows
-- Real-world tool usage patterns
-
-### Step 5: Introduction to Sub-agents
-
-- Building teams of specialized agents
-- Coordination and task delegation
-- Shared resources and collaboration
-- Complex multi-agent workflows
+By the end of this workshop you should have everything you need to make your own
+agents that do things for you.
