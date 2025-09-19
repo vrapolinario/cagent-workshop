@@ -1,4 +1,4 @@
-# Step n: MCP (Model Context Protocol)
+# Step 3: MCP (Model Context Protocol)
 
 [MCP](https://modelcontextprotocol.io/) is an open-source standard for
 connecting AI applications to external systems.
