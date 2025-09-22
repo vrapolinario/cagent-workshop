@@ -223,4 +223,4 @@ agents:
 
 ---
 
-**Previous:** [Step 4: Sharing Agents with Docker Registry](step4_sharing_agents.md) | **Next:** [Step 6: Thank You !](step6_thankyou.md)
+**Previous:** [Step 4: Sharing Agents with Docker Registry](step4_sharing_agents.md) | **Next:** [Step 6: Extra](step6_extra.md)

@@ -76,8 +76,7 @@ The `todo` toolset instructs the model to use its todo-tracking tools when it
 needs to do a complex task. This tool can help the model keep in line while it's
 working on a complex task.
 
-Adding the `todo` toolset works the same way as the `think` one. TODO: @rumpl
---> introduce developer progression
+Adding the `todo` toolset works the same way as the `think` one.
 
 The `todo` toolset can be useful for a developer agent. Breaking down a task
 into smaller, more manageable pieces is how most of developers work. Let's start
