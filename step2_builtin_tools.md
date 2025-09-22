@@ -198,8 +198,3 @@ even more powerful thanks to MCP servers.
 > [!NOTE]
 > Before going to the next step, play around with your developer agent, try and
 > make its system prompt fit _your_ needs.
-
----
-
-**Previous:** [Step 1: Introduction to cagent](step1_first_agent.md) | **Next:**
-[Step 3: MCP (Model Context Protocol)](step3_mcp.md)

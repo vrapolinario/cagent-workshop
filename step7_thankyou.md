@@ -24,7 +24,3 @@ The agents you built in this workshop are starting points. Modify them, combine
 them, and adapt them to your specific needs.
 
 Thank you for working through this workshop. Next steps? Have fun with it!
-
----
-
-**Workshop Complete** | **Previous:** [Step 6: Extra](step6_extra.md)

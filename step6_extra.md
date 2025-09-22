@@ -22,6 +22,3 @@ Before running this agent, make sure you have the model available locally:
 ```console
 $ docker model pull ai/smollm2
 ```
-
-**Previous:** [Step 5: Introduction to Sub-agents](step4_sharing_agents.md) | **Next:** [Step 7: Thank
-You!](step7_thankyou.md)

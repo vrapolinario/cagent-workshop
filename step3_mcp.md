@@ -176,8 +176,3 @@ documentation for the library it chose to use to write this server.
 
 Look around the MCP Toolkit, play with some more MCP servers, what other servers
 do you think could be useful for a developer agent?
-
----
-
-**Previous:** [Step 2: Builtin tools](step2_builtin_tools.md) | **Next:** [Step
-4: Sharing Agents with Docker Registry](step4_sharing_agents.md)
