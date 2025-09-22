@@ -1,6 +1,7 @@
 # Step 3: MCP (Model Context Protocol)
 
-For this section you will need, you need to install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+For this section you will need, you need to install [Docker
+Desktop](https://www.docker.com/products/docker-desktop/).
 
 [MCP](https://modelcontextprotocol.io/) is an open-source standard for
 connecting AI applications to external systems.
@@ -38,7 +39,10 @@ _any_ MCP server, local or remote.
 
 ## Custom local MCP server
 
-To run the above example you will need the [uvx](https://docs.astral.sh/uv/getting-started/installation/) command line, which is often needed when running local mcp server outside of docker containers.
+To run the above example you will need the
+[uvx](https://docs.astral.sh/uv/getting-started/installation/) command line,
+which is often needed when running local mcp server outside of docker
+containers.
 
 `yfmcp` is the yahoo finance mcp server.
 
@@ -56,7 +60,6 @@ agents:
       command: uvx
       args: ["yfmcp"]
 ```
-
 
 ## Remote MCP server
 
@@ -89,7 +92,10 @@ $ git clone https://github.com/rumpl/mcp-strawberry
 $ cd mcp-strawberry
 $ docker build -t mcp-strawberry .
 ```
-TODO: @rumpl  add a pre built image
+
+> [!NOTE]
+> If you don't want to clone and build, you can use the already pushed
+> MCP server image from hub: `djordjelukic1639080/mcp-strawberry`
 
 Now create an agent that will use this MCP server.
 
@@ -127,7 +133,7 @@ agents:
     toolsets:
       - type: mcp
         command: docker
-        args: [run, "-i", "--rm", "mcp-strawberry"]
+        args: [run, "-i", "--rm", "mcp-strawberry"] # or djordjelukic1639080/mcp-strawberry
 ```
 
 </details>
@@ -173,4 +179,5 @@ do you think could be useful for a developer agent?
 
 ---
 
-**Previous:** [Step 2: Builtin tools](step2_builtin_tools.md) | **Next:** [Step 4: Sharing Agents with Docker Registry](step4_sharing_agents.md)
+**Previous:** [Step 2: Builtin tools](step2_builtin_tools.md) | **Next:** [Step
+4: Sharing Agents with Docker Registry](step4_sharing_agents.md)
