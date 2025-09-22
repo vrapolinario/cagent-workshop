@@ -35,7 +35,38 @@ agents:
       - type: think
 ```
 
+You can try by asking your pirate agent `Think before you answer, where is the treasure map?`
+
+TODO: @rumpl add version explanation
+
+### Memory
+
+The memory tool gives the agent the ability to remember things about the user.
+
+Give this agent a try:
+
+```yaml
+version: "2"
+
+agents:
+  root:
+    model: openai/gpt-4o
+    instruction: You are a personal asisstant
+    toolsets:
+      - type: memory
+        path: ./memory.db
+```
+
+Run this agent once, tell it your name and some random fact about you. Something like `I'm XXX and I'm a software engineer`. You
+should see it calling the memory tools to remember facts about you.
+
+If you then quit cagent and start a new session with this agent. You can ask it what
+it knows about you, it should correctly look up its internal memory and tell you
+what it knows. For example: `Who am I?` or `What do I do for a living?`
+
 ### Todo
+
+TODO: @rumpl --> introduce developer progression
 
 The `todo` toolset instructs the model to use its todo-tracking tools when it
 needs to do a complex task. This tool can help the model keep in line while it's
@@ -60,31 +91,6 @@ to test out as many models as you wish with different setups.
 
 Try this agent, see how it _magically_ creates todo lists for its tasks and
 loops until the todos are done.
-
-### Memory
-
-The memory tool gives the agent the ability to remember things about the user.
-
-Give this agent a try:
-
-```yaml
-version: "2"
-
-agents:
-  root:
-    model: openai/gpt-4o
-    instruction: You are a personal asisstant
-    toolsets:
-      - type: memory
-        path: ./memory.db
-```
-
-Run this agent once, tell it your name and some random fact about you. You
-should see it calling the memory tools to remember facts about you.
-
-If you then quit the application and come back to this agent you can ask it what
-it knows about you, it should correctly look up its internal memory and tell you
-what it knows.
 
 ### Development related builtin tools
 

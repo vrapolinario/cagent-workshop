@@ -1,5 +1,7 @@
 # Step 3: MCP (Model Context Protocol)
 
+For this section you will need, you need to install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+
 [MCP](https://modelcontextprotocol.io/) is an open-source standard for
 connecting AI applications to external systems.
 
@@ -36,6 +38,10 @@ _any_ MCP server, local or remote.
 
 ## Custom local MCP server
 
+To run the above example you will need the [uvx](https://docs.astral.sh/uv/getting-started/installation/) command line, which is often needed when running local mcp server outside of docker containers.
+
+`yfmcp` is the yahoo finance mcp server.
+
 ```yaml
 version: "2"
 agents:
@@ -50,6 +56,7 @@ agents:
       command: uvx
       args: ["yfmcp"]
 ```
+
 
 ## Remote MCP server
 
@@ -82,6 +89,7 @@ $ git clone https://github.com/rumpl/mcp-strawberry
 $ cd mcp-strawberry
 $ docker build -t mcp-strawberry .
 ```
+TODO: @rumpl  add a pre built image
 
 Now create an agent that will use this MCP server.
 

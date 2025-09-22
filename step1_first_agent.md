@@ -10,8 +10,6 @@ Let's create the simplest possible agent:
 **basic_hello.yaml**
 
 ```yaml
-version: "2"
-
 agents:
   root:
     model: openai/gpt-4o
@@ -25,42 +23,22 @@ cagent run basic_hello.yaml
 ```
 
 If everything is setup correctly, you should see the TUI and be able to ask a
-question to your agent and it should answer in pirate speak.
+question to your agent and it should answer in pirate speak like so:
+
+![cagent tui](cagent-tui.png)
 
 If you don't have access to OpenAI, go to [models.dev](https://models.dev) and
 look for the models that exist for `openai`, `anthropic` or `google` provider
-IDs.
+IDs, and swap for one which you have a key for.
 
 `cagent` supports these providers:
 
 - `openai`
 - `anthropic`
 - `google`
-- `dmr`: Use any local Docker Model Runner model that you alrady have pulled
+- `dmr`: Use any local [Docker Model](https://docs.docker.com/ai/model-runner/) Runner model that you alrady have pulled
   locally.
 
-## Model Configuration
-
-While you can use shorthand model references like `openai/gpt-4o-mini`, you can
-also define models explicitly for more control:
-
-**basic_with_model.yaml**
-
-```yaml
-version: "2"
-
-models:
-  my_model:
-    provider: openai
-    model: gpt-4o-mini
-    temperature: 0.7
-    max_tokens: 1000
-
-agents:
-  root:
-    model: my_model # References the model defined above
-    instruction: You talk like a pirate
-```
 
 ## Next Steps
 

@@ -26,6 +26,8 @@ Or you might want to directly run it:
 $ cagent run your-account/agent
 ```
 
+TODO: @rumpl give some example
+
 ---
 
 **Previous:** [Step 3: MCP (Model Context Protocol)](step3_mcp.md) | **Next:** [Step 5: Introduction to Sub-agents](step5_sub_agents.md)
