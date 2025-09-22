@@ -195,6 +195,10 @@ were the commits made in this repository in the last day?"
 In the next step we will take a look at ways we can make our developer agent
 even more powerful thanks to MCP servers.
 
+> [!NOTE]
+> Before going to the next step, play around with your developer agent, try and
+> make its system prompt fit _your_ needs.
+
 ---
 
 **Previous:** [Step 1: Introduction to cagent](step1_first_agent.md) | **Next:**

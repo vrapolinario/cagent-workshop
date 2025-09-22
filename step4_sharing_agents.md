@@ -6,7 +6,7 @@ does something useful. Wouldn't it be nice if we could share agents with others?
 Sharing agents with cagent should be extermely simple, you can push and pull
 agents to any OCI registry.
 
-Exercice: push an agent, ask your neighour to pull and run it. Play around
+Exercice: push your developer agent, ask your neighour to pull and run it. Play around
 
 Here's how to push an agent:
 
