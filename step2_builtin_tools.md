@@ -35,9 +35,14 @@ agents:
       - type: think
 ```
 
-You can try by asking your pirate agent `Think before you answer, where is the treasure map?`
+You can try by asking your pirate agent `Think before you answer, where is the
+treasure map?`
 
-TODO: @rumpl add version explanation
+The keen-eyed might have noticed the `version: "2"` on the top of the YAML file
+above. While `cagent` is in active development and breaking things, we _try_ not
+to break user's existing agents. If there is no version defined in the YAML
+file, the default version is `0`, the current latest version is `2`, always use
+the latest verison.
 
 ### Memory
 
@@ -57,12 +62,13 @@ agents:
         path: ./memory.db
 ```
 
-Run this agent once, tell it your name and some random fact about you. Something like `I'm XXX and I'm a software engineer`. You
-should see it calling the memory tools to remember facts about you.
+Run this agent once, tell it your name and some random fact about you. Something
+like `I'm XXX and I'm a software engineer`. You should see it calling the memory
+tools to remember facts about you.
 
-If you then quit cagent and start a new session with this agent. You can ask it what
-it knows about you, it should correctly look up its internal memory and tell you
-what it knows. For example: `Who am I?` or `What do I do for a living?`
+If you then quit cagent and start a new session with this agent. You can ask it
+what it knows about you, it should correctly look up its internal memory and
+tell you what it knows. For example: `Who am I?` or `What do I do for a living?`
 
 ### Todo
 
@@ -188,4 +194,5 @@ even more powerful thanks to MCP servers.
 
 ---
 
-**Previous:** [Step 1: Introduction to cagent](step1_first_agent.md) | **Next:** [Step 3: MCP (Model Context Protocol)](step3_mcp.md)
+**Previous:** [Step 1: Introduction to cagent](step1_first_agent.md) | **Next:**
+[Step 3: MCP (Model Context Protocol)](step3_mcp.md)
