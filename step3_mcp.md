@@ -31,8 +31,9 @@ agents:
         ref: docker:fetch
 ```
 
-Run this agent and ask it "fetch rumpl.dev", you will see the agent calling the
-`fetch` tool form the `fetch` MCP server.
+To use this agent, you will first need to start the MCP Server on Docker Desktop. Open Docker Desktop, click MCP Toolkit on the left sidebar, and click Catalog. Search for the `fetch` MCP server and click the + sign to start the Fetch (Reference) server.
+
+Once the MCP Server has started on Docker Desktop, return to the agent and ask it "fetch rumpl.dev", you will see the agent calling the `fetch` tool from the `fetch` MCP server.
 
 This is the simplest way to use an MCP server with cagent, but you can also run
 _any_ MCP server, local or remote.
